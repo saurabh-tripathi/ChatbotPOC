@@ -6,6 +6,7 @@ class EmailManager:
     User = None
 
     def __init__(self, user):
+        #TODO affirmative should also come from api
         self.User = user
 
     def action(self):

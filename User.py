@@ -9,6 +9,7 @@ class User:
     Address = None
 
     def __init__(self):
+        #TODO add write functionality
         with open('UserDetails.json') as file:
             data = json.load(file)
         self.Name = data["Name"]
